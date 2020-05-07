@@ -1,0 +1,21 @@
+.root {
+  @apply bg-indigo-400;
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 10;
+  @apply w-full h-full bg-white shadow-md;
+}
+
+.container {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  z-index: 20;
+  @apply w-full max-w-4xl mx-auto inset-x-0;
+}
+
+.banner {
+  z-index: 30
+}

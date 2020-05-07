@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import { MDXProvider } from '@mdx-js/react'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
-import Button from '../components/button'
+import Layout from '../components/Layout'
+import SEO from '../components/SEO'
+import Button from '../components/Button'
 
 const shortcodes = { Link, Button }
 
